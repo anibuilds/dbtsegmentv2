@@ -1,3 +1,9 @@
+{{
+   config(
+          materialized = 'view'
+   )
+}}
+
 SELECT
     o.order_date,
     p.product_name,
