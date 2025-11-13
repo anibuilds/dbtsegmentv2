@@ -1,4 +1,0 @@
-Select 
-* 
-from 
-{{ source('landing', 'orders')}}
